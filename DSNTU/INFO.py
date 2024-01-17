@@ -1,0 +1,20 @@
+seed = 13467
+crossvalidation = 1
+foldlist = ['fold1','fold2','fold3','fold4']
+dir_file = r''
+dir_test =  r''
+dir_savepath = f'./checkpoints'
+taskname = 'cardiac_dsnt'
+tasklist = [taskname+'_'+foldlist[0],taskname+'_'+foldlist[1],taskname+'_'+foldlist[2],taskname+'_'+foldlist[3]]
+
+n_channels = 2
+n_classes = 3
+epochs = 100
+batch_size = 6
+lr = 0.002
+device = 'cuda'
+img_scale = 1
+lr_descent_stepsize = 10
+lr_descent_rate = 0.5
+val_epoch = 5
+sigma_t = 1
